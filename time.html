@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Time to Words Translator</h1>
+    <div>
+        <input type="text" id="timeinput" disabled><br>
+        <button onClick="pressDigit('1')">1</button>
+        <button onClick="pressDigit('2')">2</button>
+        <button onClick="pressDigit('3')">3</button><br>
+        <button onClick="pressDigit('4')">4</button>
+        <button onClick="pressDigit('5')">5</button>
+        <button onClick="pressDigit('6')">6</button><br>
+        <button onClick="pressDigit('7')">7</button>
+        <button onClick="pressDigit('8')">8</button>
+        <button onClick="pressDigit('9')">9</button><br>
+        <button onClick="pressDigit('0')">0</button>
+        <button onClick="clearDisplay()">C</button><br>
+        <button class="translate" onClick="translateTimeToWords()">Translate</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
